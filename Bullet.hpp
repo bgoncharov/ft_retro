@@ -6,7 +6,7 @@
 /*   By: bogoncha <bogoncha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/26 20:57:16 by bogoncha          #+#    #+#             */
-/*   Updated: 2019/10/26 21:03:18 by bogoncha         ###   ########.fr       */
+/*   Updated: 2019/10/26 21:17:24 by bogoncha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ class Bullet {
         void displ(void) const;
 
         int getPosx(void) const;
-        void etPosx(int posx);
+        void setPosx(int posx);
         int getPosy(void) const;
         void setPosy(int posy);
         WINDOW *getWin(void) const;
