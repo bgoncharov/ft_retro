@@ -17,4 +17,4 @@ Now test it with:
 
 Enjoy :)
 
-![Game screen](https://github.com/bgoncharov/ft_retro/blob/master/includes/game.jpeg "ft_retro")
+![Game screen](https://github.com/bgoncharov/ft_retro/blob/master/includes/game.jpeg | width=300 )
