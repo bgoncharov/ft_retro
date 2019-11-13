@@ -15,10 +15,8 @@ Now test it with:
 ./ft_retro
 ```
 
-::: warning
-*Enjoy :)*
-:::
+Enjoy :)
 
 
-<img src="https://github.com/bgoncharov/ft_retro/blob/master/includes/game.jpeg" width="250">
-<img src="https://github.com/bgoncharov/ft_retro/blob/master/includes/menu.jpeg" width="250">
+
+<img src="https://github.com/bgoncharov/ft_retro/blob/master/includes/game.jpeg" width="400">
