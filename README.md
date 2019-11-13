@@ -18,3 +18,4 @@ Now test it with:
 Enjoy :)
 
 <img src="https://github.com/bgoncharov/ft_retro/blob/master/includes/game.jpeg" width="300">
+<img src="https://github.com/bgoncharov/ft_retro/blob/master/includes/menu.jpeg" width="300">
