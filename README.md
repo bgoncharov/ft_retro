@@ -1,6 +1,3 @@
-# ft_retro
-
-
 # How to use?
 First of all, download/clone this repo:
 ```
