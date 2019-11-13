@@ -6,13 +6,14 @@
 /*   By: bogoncha <bogoncha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/26 13:22:12 by bogoncha          #+#    #+#             */
-/*   Updated: 2019/10/26 20:50:31 by bogoncha         ###   ########.fr       */
+/*   Updated: 2019/10/27 21:21:55 by bogoncha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef PLAYER_HPP
 # define PLAYER_HPP
-# include <ncurses.h>
+
+#include <ncurses.h>
 
 class Player {
 
@@ -23,7 +24,7 @@ class Player {
 
         ~Player(void);
 
-        Player &operator=(Player const & rhs);
+        Player &     operator=(Player const & rhs);
 
         void mvUp(void);
         void mvDown(void);
@@ -49,8 +50,8 @@ class Player {
         void setMiny(int miny);
         char getChar(void) const;
         void setChar(char c);
-        WINDOW *getWin(void) const;
-        void setWin(WINDOW *win);
+        WINDOW* getWin(void) const;
+        void setWin(WINDOW* win);
 
     private:
         int _lifes;
@@ -62,7 +63,7 @@ class Player {
         int _minx;
         int _miny;
         char _c;
-        WINDOW  *_win;
+        WINDOW *_win;
 };
 
 #endif

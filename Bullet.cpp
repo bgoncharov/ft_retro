@@ -6,7 +6,7 @@
 /*   By: bogoncha <bogoncha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/26 21:03:33 by bogoncha          #+#    #+#             */
-/*   Updated: 2019/10/26 21:18:41 by bogoncha         ###   ########.fr       */
+/*   Updated: 2019/10/27 20:56:53 by bogoncha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ Bullet::Bullet(void) {
 }
 
 Bullet::Bullet(int posx, int posy, WINDOW *win) {
-    this->_posx = posx;
+	this->_posx = posx;
     this->_posy = posy;
     this->_win = win;
     return ;
@@ -41,7 +41,7 @@ Bullet & Bullet::operator=(Bullet const & rhs) {
     return *this;
 }
 
-void Bullet::move(void) {
+void Bullet::mv(void) {
     mvwaddch(this->_win, this->_posy, this->_posx, ' ');
     this->_posx += 1;
 }
@@ -66,7 +66,7 @@ void Bullet::setPosy(int posy) {
     this->_posy = posy;
 }
 
-WINDOW *Bullet::getWin(void) const{
+WINDOW* Bullet::getWin(void) const{
     return this->_win;
 }
 

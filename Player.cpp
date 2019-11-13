@@ -6,7 +6,7 @@
 /*   By: bogoncha <bogoncha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/26 13:22:11 by bogoncha          #+#    #+#             */
-/*   Updated: 2019/10/26 19:05:47 by bogoncha         ###   ########.fr       */
+/*   Updated: 2019/10/27 21:14:28 by bogoncha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ Player::Player(void) {
     return ;
 }
 
-Player::Player(char c, WINDOW *win) {
+Player::Player(char c, WINDOW* win) {
     int x;
     int y;
     getmaxyx(win, y, x);
@@ -38,11 +38,11 @@ Player::Player(Player const & src) {
     return ;
 }
 
-Player::~Player(void){
+Player::~Player(void) {
     return ;
 }
 
-Player& Player::operator=(Player const & rhs) {
+Player & Player::operator=(Player const & rhs) {
     if (this != &rhs) {
         this->_lifes = getLifes();
         this->_posx = getPosx();
@@ -90,8 +90,6 @@ void Player::displ(void) const {
     mvwaddch(this->_win, this->_posy, this->_posx, this->_c);
 }
 
-
-//Setter and getters
 int Player::getLifes(void) const{
     return this->_lifes;
 }
@@ -163,7 +161,7 @@ void Player::setChar(char c) {
     this->_c = c;
 }
 
-WINDOW *Player::getWin(void) const{
+WINDOW* Player::getWin(void) const{
     return this->_win;
 }
 
